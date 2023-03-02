@@ -1,0 +1,52 @@
+
+body{
+    background-color: #E5E5E5;
+}
+header{
+    text-align: center;
+}
+h1{
+    padding: 15px;
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 84.69%;
+}
+h2{
+
+    padding: 6px;
+    background-color: #C4C4C4;
+    color: #005677;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.DPlist{
+    list-style-type: disc;
+}
+
+footer {
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+footer img {
+    margin: 0 10px;
+}
