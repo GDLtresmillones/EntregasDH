@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #464545;
+}
+section h2{
+    color: red;
+}
+span{
+    color: white;
+}
+
+header, footer{
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul, footer ul{
+    color: white;
+    list-style: none;
+    display: flex;
+}
+header ul{
+    
+    padding: 10px;
+    margin: 10px;
+
+}
+ ol{
+    line-height: 1.8;
+ }
+
+footer ul{
+    line-height: 0.5;
+    flex-direction: column;
+    
+}
+
+header img, footer img{
+    margin: 15px;
+}
+
+header li, footer li{
+    margin: 15px;
+}
+
+.delivery{
+    background-image: url("../img/Delivery.png");
+    width: 490px;
+    height: 350px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.tituloPodio{
+    position: absolute;
+    top: 15px;
+    left: 145px;
+}
+.podio{
+    position: relative;
+    background-color: white;
+    width: 490px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    border-radius: 5px;
+    
+}
+
+
+.falling{
+  
+    width: 92px;
+    height: 129px;
+    
+    
+}
+
+main section {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #e5e5e5;
+  }
+
+.delivery h2{
+
+   
+    align-content: end;
+    margin: 15px;
+}
